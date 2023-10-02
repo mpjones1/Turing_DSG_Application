@@ -6,8 +6,7 @@
 
 The **'GPR'** folder contains three subfolders: Code, Data and Figures
 
-* The 'Code' folder contains a demo of the MATLAB code I used in the following Soft Matter paper: https://pubs.rsc.org/en/content/articlelanding/2021/sm/d1sm00818h/ (Jones, Clarke; Soft Matter, 2021,
-17, 9689)
+* The 'Code' folder contains a demo of the MATLAB code I used in the Soft Matter paper linked below:
     * 'GPR_Predict' predicts the structure characteristics of a phase-separating (demixing) polymer blend from the corresponding scattering data
     * 'Pred_vs_True_Plot_Best' uses the output of 'GPR_Predict' to plot a comparison of the best predicitons of each structure characteristic with the true values
     * The remaining code belongs to the GPML MATLAB code package: http://gaussianprocess.org/gpml/code/matlab/doc/
@@ -16,6 +15,8 @@ The **'GPR'** folder contains three subfolders: Code, Data and Figures
     * 'Output' contains the output of 'GPR_Predict' (need to run 'GPR_Predict' first)
 * The 'Figures' folder contains the figures produced by 'Pred_vs_True_Plot_Best'
 
+**Soft Matter paper**: https://pubs.rsc.org/en/content/articlelanding/2021/sm/d1sm00818h/ (Jones, Clarke; Soft Matter, 2021,
+17, 9689)
 *For specific details regarding our implementation of Gaussian process regression, including an overview of the data we used, please refer to sections 3.1 and 3.2 of the paper*
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
