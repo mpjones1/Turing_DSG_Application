@@ -1,7 +1,6 @@
-% Code to predict the structure characteristcs of phase-separated 
-% microstructures from the corresponding scattering
-% data using GPR. The code trains and deploys four different models, making
-% use of the SE, RQ, Mat5/2 and exponential kernel functions. The code
+% Code to predict the structure characteristcs of a phase-separating (demixing) polymer blend
+% from the corresponding scattering data using GPR. The code trains and deploys four different 
+% models, making use of the SE, RQ, Mat5/2 and exponential kernel functions. The code
 % repeats this process over many different combinations of training data
 
 clear all
