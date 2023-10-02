@@ -17,6 +17,7 @@ The **'GPR'** folder contains three subfolders: Code, Data and Figures
 
 **Soft Matter paper**: https://pubs.rsc.org/en/content/articlelanding/2021/sm/d1sm00818h/ (Jones, Clarke; Soft Matter, 2021,
 17, 9689)
+
 *For specific details regarding our implementation of Gaussian process regression, including an overview of the data we used, please refer to sections 3.1 and 3.2 of the paper*
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
