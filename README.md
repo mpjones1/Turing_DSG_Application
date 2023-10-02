@@ -22,7 +22,7 @@ The **'GPR'** folder contains three subfolders: Code, Data and Figures
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-The **'Simulations'** folder contains a demo of the Julia code I used to generate the data for my PhD research 
+The **'Simulations'** folder contains a demo of the Julia code I used to generate the data for my PhD research:
 * 'SD_Scattering_Parallel_3D' simulates spinodal decomposition in 3D, making use of parallel processing where possible, and calculates the corresponding scattering data at regular intervals
 * 'Parameters' and 'Run_Simulations' are batch submission scripts used to run 'SD_Scattering_Parallel_3D' on the University of Sheffield's HPC, Stanage (https://docs.hpc.shef.ac.uk/en/latest/stanage/index.html)
     * 'Parameters' specifies the blend and simulation parameters 
