@@ -13,7 +13,7 @@ The **'GPR'** folder contains three subfolders: Code, Data and Figures
     * The remaining code belongs to the GPML MATLAB code package: http://gaussianprocess.org/gpml/code/matlab/doc/
 * The 'Data' folder contains two subfolders:
     * 'Input' contains the data required to run 'GPR_Predict'
-    * 'Output' contains the output of 'GPR_Predict'
+    * 'Output' contains the output of 'GPR_Predict' (need to run GPR_Predict first)
 * The 'Figures' folder contains the figures produced by 'Pred_vs_True_Plot_Best'
 
 *For specific details regarding our implementation of Gaussian process regression, including an overview of the data we used, please refer to sections 3.1 and 3.2 of the paper*
