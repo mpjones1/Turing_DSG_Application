@@ -15,16 +15,16 @@ The **'GPR'** folder contains three subfolders: Code, Data and Figures
     * The 'Output' folder contains the output of 'GPR_Predict.m' (need to run 'GPR_Predict.m' first)
 * The 'Figures' folder contains the figures produced by 'Pred_vs_True_Plot_Best.m'
 
-**Soft Matter paper**: https://pubs.rsc.org/en/content/articlelanding/2021/sm/d1sm00818h/ (Jones, Clarke; Soft Matter, 2021,
-17, 9689)
+**Soft Matter paper**: https://pubs.rsc.org/en/content/articlelanding/2021/sm/d1sm00818h/ [Jones, Clarke; Soft Matter, 2021,
+17, 9689]
 
 *For specific details regarding our implementation of Gaussian process regression, including an overview of the data we used, please refer to sections 3.1 and 3.2 of the paper*
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The **'Simulations'** folder contains a demo of the Julia code I used to generate the data for my PhD research:
-* 'SD_Scattering_Parallel_3D' simulates spinodal decomposition in 3D, making use of parallel processing where possible, and calculates the corresponding scattering data at regular intervals
-* 'Parameters' and 'Run_Simulations' are batch submission scripts used to run 'SD_Scattering_Parallel_3D' on the University of Sheffield's HPC, Stanage (https://docs.hpc.shef.ac.uk/en/latest/stanage/index.html)
+* 'SD_Scattering_Parallel_3D.jl' simulates spinodal decomposition in 3D, making use of parallel processing where possible, and calculates the corresponding scattering data at regular intervals
+* 'Parameters.sh' and 'Run_Simulations.sh' are batch submission scripts used to run 'SD_Scattering_Parallel_3D.jl' on the University of Sheffield's HPC, Stanage (https://docs.hpc.shef.ac.uk/en/latest/stanage/index.html)
     * 'Parameters' specifies the blend and simulation parameters 
     * 'Run_Simulations' specifies the number of repeat simulations, ensuring they are sent to different nodes
 
