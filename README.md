@@ -11,8 +11,8 @@ The **'GPR'** folder contains three subfolders: Code, Data and Figures
     * 'Pred_vs_True_Plot_Best' uses the output of 'GPR_Predict' to plot a comparison of the best predicitons of each structure characteristic with the true values
     * The remaining code belongs to the GPML MATLAB code package: http://gaussianprocess.org/gpml/code/matlab/doc/
 * The 'Data' folder contains two subfolders:
-    * 'Input' contains the data required to run 'GPR_Predict'
-    * 'Output' contains the output of 'GPR_Predict' (need to run 'GPR_Predict' first)
+    * The 'Input' folder contains the data required to run 'GPR_Predict'
+    * The 'Output' folder contains the output of 'GPR_Predict' (need to run 'GPR_Predict' first)
 * The 'Figures' folder contains the figures produced by 'Pred_vs_True_Plot_Best'
 
 **Soft Matter paper**: https://pubs.rsc.org/en/content/articlelanding/2021/sm/d1sm00818h/ (Jones, Clarke; Soft Matter, 2021,
